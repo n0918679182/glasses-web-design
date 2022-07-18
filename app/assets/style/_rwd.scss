@@ -1,0 +1,326 @@
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .header{
+        padding: 16px 36px;
+        .container{
+            .menu{
+                li{
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        
+    }
+    .banner{
+        background: url(../images/home-header-sm.png) center;
+        background-size: cover;
+        width: 787px;
+        .content{
+            margin-right: 37px;
+        }
+    }
+    .survice{
+        .container{
+            ul{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+    .classic{
+        ul{
+            flex-direction: column;
+            li{
+                margin-bottom: 24px;
+                img{
+                    width: 336px;
+                    height: 336px;
+                }
+            }
+        }
+    }
+    .co-branding{
+        background: url(../images/index-bg-sm.png) center;
+        background-size: cover;
+        ul{
+            flex-direction: column;
+            align-items: center;
+            li{
+                width: 696px;
+                &:first-child{
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+    .recommend{
+        ul{
+            flex-wrap: wrap;
+            justify-content: center;
+            li{
+                margin-right: 0;
+                width: 336px;
+                &:nth-child(1),&:nth-child(2){
+                    margin-bottom: 24px;
+                }
+                &:nth-child(1),&:nth-child(3){
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+    .contact{
+        .container{
+            width: 576px;
+            h2{
+                margin-bottom: 24px;
+            }
+            .text{
+                font-size: 16px;
+                line-height: 24px;
+            }
+            form{
+                ul{
+                    li{
+                        h3{
+                            margin-bottom: 14px;
+                        }
+                        input[type=text],input[type=email],textarea{
+                            width: 548.8px;
+                        }
+                    }
+                }
+                input[type=submit]{
+                    padding: 16px 136px;
+                }
+            }
+        }
+    }
+    .footer{
+        .container{
+            width: 696px;
+            padding-top: 56.02px;
+            padding-bottom: 40px;
+            .content{
+                .text{
+                    .weblink{
+                        margin-bottom: 31.98px;
+                    }
+                }
+                .icon{
+                    li{
+                        margin-left: 16px;
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:376px){
+    h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .container{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .header{
+        padding: 16px 10px;
+        .container{
+            text-align: left;
+            .menu{
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                flex-direction: column;
+                background: #AA0601;
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                transition: .3s;
+                li{
+                    width: 100%;
+                    border-top: 2px solid #fff;
+                    padding: 5px 10px;
+                    a{
+                        font-size: 16px;
+                    }
+                }
+                &.action{
+                    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+                }
+            }
+            .burger-menu{
+                display: flex;
+                font-size: 40px;
+                margin-right: 10px;
+            }
+        }
+        
+    }
+
+    .banner{
+        height: 396px;
+        width: 100%;
+        background: url(../images/home-header-sm.png) center;
+        background-size: cover;
+        .content{
+            margin-right: 14px;
+            span{
+                font-size: 16px;
+                line-height: 24px;
+            }
+            h1{
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+
+
+    .survice{
+        .container{
+            h2{
+                margin-bottom: 32.08px;
+            }
+            ul{
+                li{
+                    margin-right: 0;
+                    margin-bottom: 32.33px;
+                }
+            }
+        }
+    }
+
+    .classic{
+        ul{
+            li{
+                img{
+                    width: 348px;
+                    height: 348px;
+                }
+            }
+        }
+    }
+
+    .co-branding{
+        background: url(../images/index-bg-md.png) center;
+        background-size: cover;
+        h2{
+            margin-bottom: 24px;
+        }
+        ul{
+            li{
+                width: 348px;
+                &:first-child{
+                    margin-bottom: 24px;
+                }
+                img{
+                    height: 240px;
+                    width: 348px;
+                }
+            }
+        }
+    }
+
+    .recommend{
+        ul{
+            flex-wrap: wrap;
+            justify-content: center;
+            li{
+                
+                width: 348px;
+                &:nth-child(1),&:nth-child(2){
+                    margin-bottom: 16px;
+                }
+                &:nth-child(1),&:nth-child(3){
+                    margin-right: 0;
+                    margin-bottom: 16px;
+                }
+                
+            }
+        }
+    }
+
+    .contact{
+        .container{
+            width: 348px;
+            h2{
+                margin-bottom: 24px;
+            }
+            .text{
+                font-size: 16px;
+                line-height: 24px;
+            }
+            form{
+                ul{
+                    li{
+                        input[type=text],input[type=email],textarea{
+                          width: 320.8px;   
+                        }
+                        &:last-child{
+                            align-items: flex-start;
+                        }
+                    }
+                }
+                input[type=submit]{
+                    padding: 16px 0;
+                    width: 348px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            width: 348px;
+            padding: 24px 0;
+            .content{
+                padding-bottom: 24px;
+                margin-bottom: 16px;
+                .text{
+                    padding-top: 0 ;
+                    .weblink{
+                        display: none;
+                    }
+                    .phone,.mail{
+                        span{
+                            font-size: 18px;
+                        }
+                        a{
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+                .icon{
+                    li{
+                        margin-left: 8px;
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+            .copyright{
+                flex-direction: column;
+                text-align: left;
+                .pact{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        margin-left: 0;
+                        margin-top: 8px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
