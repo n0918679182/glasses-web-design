@@ -30,10 +30,12 @@
 
   
 <div class="banner">
-  <div class="content">
-    <span>Promise-Desert 2020 早春系列</span>
-    <h1>看得清，才能看得遠</h1>
-    <a href="#">立即購買</a>
+  <div class="container">
+    <div class="content">
+      <span>Promise-Desert 2020 早春系列</span>
+      <h1>看得清，才能看得遠</h1>
+      <a href="#">立即購買</a>
+    </div>
   </div>
 </div>
 
@@ -105,58 +107,60 @@
 </div>
 
 
-<div class="recommend container">
-  <h2>顧客推薦</h2>
-  <ul>
-    <li>
-      <img src="assets/images/home-section5-1.png" alt="">
-      <div class="text">
-        <div class="content">
-          <p class="name">Jessy</p>
-          <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+<div class="recommend">
+  <div class="container">
+    <h2>顧客推薦</h2>
+    <ul>
+      <li>
+        <img src="assets/images/home-section5-1.png" alt="">
+        <div class="text">
+          <div class="content">
+            <p class="name">Jessy</p>
+            <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+          </div>
+          <div class="time-stamp">
+            <p>2021/06/20</p>
+          </div>
         </div>
-        <div class="time-stamp">
-          <p>2021/06/20</p>
+      </li>
+      <li>
+        <img src="assets/images/home-section5-2.png" alt="">
+        <div class="text">
+          <div class="content">
+            <p class="name">凱倫</p>
+            <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+          </div>
+          <div class="time-stamp">
+            <p>2021/04/18</p>
+          </div>
         </div>
-      </div>
-    </li>
-    <li>
-      <img src="assets/images/home-section5-2.png" alt="">
-      <div class="text">
-        <div class="content">
-          <p class="name">凱倫</p>
-          <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+      </li>
+      <li>
+        <img src="assets/images/home-section5-3.png" alt="">
+        <div class="text">
+          <div class="content">
+            <p class="name">悠悠</p>
+            <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+          </div>
+          <div class="time-stamp">
+            <p>2020/12/25</p>
+          </div>
         </div>
-        <div class="time-stamp">
-          <p>2021/04/18</p>
+      </li>
+      <li>
+        <img src="assets/images/home-section5-4.png" alt="">
+        <div class="text">
+          <div class="content">
+            <p class="name">Kyuan</p>
+            <p>服務很好，品質沒有任何問題，非常喜歡。</p>
+          </div>
+          <div class="time-stamp">
+            <p>2020/10/31</p>
+          </div>
         </div>
-      </div>
-    </li>
-    <li>
-      <img src="assets/images/home-section5-3.png" alt="">
-      <div class="text">
-        <div class="content">
-          <p class="name">悠悠</p>
-          <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
-        </div>
-        <div class="time-stamp">
-          <p>2020/12/25</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <img src="assets/images/home-section5-4.png" alt="">
-      <div class="text">
-        <div class="content">
-          <p class="name">Kyuan</p>
-          <p>服務很好，品質沒有任何問題，非常喜歡。</p>
-        </div>
-        <div class="time-stamp">
-          <p>2020/10/31</p>
-        </div>
-      </div>
-    </li>
-  </ul>
+      </li>
+    </ul>
+  </div>
 </div>
 
 
@@ -193,6 +197,15 @@
   </div>
 </div>
 
+
+
+<!-- rwd必寫
+img{
+  max-width:100%;
+  height:auto;
+}
+容器也應該要用max-midth -->
+
   <footer class="footer">
     <div class="container">
 
@@ -205,13 +218,13 @@
             <a href="#">部落格</a>
             <a href="#">常見問題</a>
           </li>
-          <li class="phone">
+          <li class="phone-mail">
             <span class="material-icons-outlined">
               call
               </span>
             <a href="">0800-000-000</a>
           </li>
-          <li class="mail">
+          <li class="phone-mail">
             <span class="material-icons-outlined">
               email
               </span>
