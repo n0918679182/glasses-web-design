@@ -19,6 +19,7 @@
         display: flex;
         li{
             margin-right: 64px;
+            cursor: pointer;
             &:last-child{
                 margin-right: 0;
             }
@@ -29,6 +30,10 @@
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
+        padding: 25px 0;
+        &:hover{
+            border-bottom: 4px solid #fff;
+        }
     }
     .burger-menu{
         color: #fff;
@@ -66,6 +71,9 @@
             &:last-child{
                 margin-right: 0;
             }
+            &:hover{
+                border-bottom: 1px solid #fff;
+            }
         }
     }
     .phone-mail{
@@ -91,6 +99,9 @@
         img{
             width: 48px;
             height: auto;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
     }
     .copyright{
@@ -104,6 +115,9 @@
                 font-size: 14px;
                 line-height: 21px;
                 margin-left: 48px;
+                &:hover{
+                    border-bottom: 1px solid #fff;
+                }
             }
         }
     }
@@ -175,6 +189,9 @@
                 width: 100%;
                 border-top: 2px solid #fff;
                 padding: 5px 10px;
+                &:hover{
+                    background: rgba(255, 255, 255, .3);
+                }
             }
             &.action{
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -182,6 +199,9 @@
         }
         a{
             font-size: 16px;
+            &:hover{
+                border-bottom: none;
+            }
         }
         .burger-menu{
             display: flex;

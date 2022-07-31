@@ -1,0 +1,310 @@
+.d-none{
+    display: none;
+}
+.frame-series{
+    .container{
+        padding: 80px 12px 0;
+    }
+    .frame-bt{
+        display: flex;
+        justify-content: center;
+        li{
+            width: 33.33333%;
+            padding: 24px 0 16px;
+            border: 1px solid #DCDCDC;
+            cursor: pointer;
+            transition: .3s;
+            &.active{
+                border-bottom: 8px solid #AA0601;
+            }
+            &:hover{
+                background: #edecec ;
+            }
+        }
+    }
+    a{
+        font-size: 32px;
+        line-height: 48px;
+        color: #000;
+        font-weight: 500;
+    }
+}
+.head-img{
+    display: flex;
+    li{
+        width: 50%;
+        height: 296px;
+    }
+}
+.product-area{
+    h3{
+        font-size: 42px;
+        line-height: 63px;
+        font-weight: 500;
+    }
+    span{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .products{
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        justify-content: center;
+        .detail{
+            display: flex;
+            justify-content: space-between;
+            .price{
+                color: #AA0601;
+                font-weight: 500;
+            }
+        }
+        p{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .colors{
+            display: flex;
+        }
+        .dark, .light{
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+        }
+        .dark{
+            background: #5F3E2D;
+            margin-right: 8px;
+        }
+        .light{
+            background: #B75929;
+        }
+    }
+    .page-bt{
+        display: flex;
+        justify-content: center;
+        a{
+            font-size: 19px;
+            line-height: 29px;
+            color: #555555;
+        }
+        li{
+            padding: 12px 16px;
+            border: 1px solid #555555;
+            border-left: none;
+            cursor: pointer;
+            &:first-child{
+                border-left: 1px solid #555555;
+            }
+            &:hover{
+                background: #000;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+        .previous-next{
+            padding: 11px 12px;
+            &:hover{
+                background: #F2F2F2;
+                a{
+                    color: #555555;
+                }
+            }
+        }
+    }
+}
+.optical{
+    .head-img{
+        li{
+            &:first-child{
+                background: url(../images/product-header-1.png) center;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/product-header-2.png) center;
+                background-size: cover;
+            }
+        }
+    }
+    .products{
+        li{
+            width: 23.18%;
+            margin-right: 24px;
+            margin-bottom: 80px;
+            cursor: pointer;
+            &:nth-child(4n+4){
+                margin-right: 0;
+            }
+        }
+    }
+}
+.sunglasses{
+    .head-img{
+        li{
+            &:first-child{
+                background: url(../images/product-header-3.png) center;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/product-header-4.png) center;
+                background-size: cover;
+            }
+        }
+    }
+    .products{
+        li{
+            width: 31%;
+            margin-right: 24px;
+            margin-bottom: 80px;
+            cursor: pointer;
+            &:nth-child(3n+3){
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1320px) {
+    .frame-series{
+        .container{
+            padding: 80px 0 0 0;
+        }
+    }
+}
+@media (max-width:992px){
+    .product-area{
+        .products{
+            gap: 0 12px;
+            li{
+                margin-right: 0;
+            }
+            p{
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .frame-series{
+        .frame-bt{
+            li{
+                padding: 16px 0 8px;
+            }
+        }
+        a{
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+    .optical{
+        .head-img{
+            li{
+                height: 296px;
+                &:first-child{
+                    background: url(../images/product-header-sm-1.png) center;
+                    background-size: cover;
+                }
+                &:last-child{
+                    background: url(../images/product-header-sm-2.png) center;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    .sunglasses{
+        .head-img{
+            li{
+                height: 296px;
+                &:first-child{
+                    background: url(../images/product-header-sm-3.png) center;
+                    background-size: cover;
+                }
+                &:last-child{
+                    background: url(../images/product-header-sm-4.png) center;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    .product-area{
+        .products{
+            gap: 0;
+            li{
+                width: 43.75%;
+                margin-right: 24px;
+                margin-bottom: 40px;
+                &:nth-child(3n+3){
+                    margin-right: 24px;
+                }
+                &:nth-child(2n+2){
+                    margin-right: 0;
+                }
+            }
+            p{
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+}
+@media (max-width:710px){
+    .frame-series{
+        a{
+            font-size: 20px;
+        }
+    }
+    .product-area{
+        .products{
+            p{
+                font-size: 16px;
+            }
+        }
+        .page-bt{
+            a{
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+@media (max-width:376px){
+    .frame-series{
+        a{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .optical, .sunglasses{
+        .head-img{
+            li{
+                height: 136px;
+            }
+        }
+    }
+    .product-area{
+        h3{
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 500;
+        }
+        span{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .products{
+            margin-top: 24px;
+            li{
+                width: 92.8%;
+                margin-right: 0;
+                margin-bottom: 24px;
+                &:nth-child(3n+3){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
