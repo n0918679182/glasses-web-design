@@ -33,6 +33,7 @@
 }
 .survice{
     background: #FBF2F2;
+    padding: 80px 0;
     h2{
         margin-bottom: 32.33px;
     }
@@ -67,6 +68,7 @@
     }
 }
 .classic{
+    padding: 80px 0;
     ul{
         display: flex;
         flex-wrap: wrap;
@@ -89,6 +91,7 @@
     }
 }
 .co-branding{
+    padding: 80px 0;
     background: url(../images/index-bg.png) center;
     background-size: cover;
     h2{
@@ -118,6 +121,7 @@
     }
 }
 .recommend{
+    padding: 80px 0;
     ul{
         display: flex;
         li{
@@ -158,6 +162,7 @@
     }
 }
 .contact{
+    padding: 80px 0;
     background: #FBF2F2;
     .container{
         width: 626px;
@@ -215,7 +220,7 @@
 }
 @media (max-width:1320px) {
     .survice, .co-branding, .recommend{
-        padding: 0 12px;
+        padding: 80px 12px;
     }
 }
 @media (max-width:992px) {
@@ -319,6 +324,9 @@
 }
 
 @media(max-width:376px){
+    .survice, .classic, .co-branding, .recommend, .contact{
+        padding: 40px 0;
+    }
     .banner{
         height: 396px;
         width: 100%;
@@ -337,6 +345,7 @@
         }
     }
     .survice{
+        padding: 40px 12px;
         h2{
             margin-bottom: 32.08px;
         }

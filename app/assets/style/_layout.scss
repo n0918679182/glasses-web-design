@@ -24,6 +24,10 @@
                 margin-right: 0;
             }
         }
+        a:hover{
+            border-bottom: 4px solid #fff;
+        }
+        
     }
     a{
         color: #fff;
@@ -31,9 +35,6 @@
         line-height: 30px;
         font-weight: 400;
         padding: 25px 0;
-        &:hover{
-            border-bottom: 4px solid #fff;
-        }
     }
     .burger-menu{
         color: #fff;
