@@ -993,6 +993,19 @@ h2 {
       .store-page .more-bt a:hover {
         background: #bcbcbc;
         color: #000; }
+  .store-page .map {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .store-page .map .content {
+      width: 40.58%;
+      margin-right: 24px; }
+    .store-page .map .store {
+      width: 100%;
+      margin-bottom: 0; }
+    .store-page .map iframe {
+      width: 57.56%;
+      height: auto; }
 
 @media (max-width: 1320px) {
   .store-page {
@@ -1016,7 +1029,31 @@ h2 {
 
 @media (max-width: 768px) {
   .store-page .store {
-    width: 47%; } }
+    width: 47%; }
+  .store-page .map {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .store-page .map .content {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 24px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+    .store-page .map img {
+      width: 48.4%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+    .store-page .map .store {
+      width: 48.4%; }
+    .store-page .map iframe {
+      width: 100%;
+      height: 414px; } }
 
 @media (max-width: 710px) {
   .store-page h3 {
@@ -1058,6 +1095,17 @@ h2 {
     .store-page form {
       margin-bottom: 24px; }
     .store-page .detail {
-      padding: 16px 27px; } }
+      padding: 16px 27px; }
+    .store-page .map .content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .store-page .map img {
+      width: 100%; }
+    .store-page .map .store {
+      width: 100%; }
+    .store-page .map iframe {
+      height: 208px; } }
 
 /*# sourceMappingURL=all.css.map */
