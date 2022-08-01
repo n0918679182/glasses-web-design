@@ -1108,4 +1108,50 @@ h2 {
     .store-page .map iframe {
       height: 208px; } }
 
+.qa-page {
+  text-align: left;
+  margin-top: 80px;
+  padding: 96px 0 80px; }
+  .qa-page h2 {
+    color: #000;
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+    margin-bottom: 32px; }
+  .qa-page span {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700; }
+  .qa-page ul {
+    margin-top: 24px; }
+  .qa-page li {
+    width: 66%;
+    margin-bottom: 32px; }
+    .qa-page li:last-child {
+      margin-bottom: 0; }
+  .qa-page h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 8px; }
+  .qa-page p {
+    line-height: 24px; }
+
+@media (max-width: 1320px) {
+  .qa-page {
+    padding: 96px 12px 80px; } }
+
+@media (max-width: 768px) {
+  .qa-page {
+    padding: 80px 36px 80px; }
+    .qa-page li {
+      width: 100%; } }
+
+@media (max-width: 376px) {
+  .qa-page {
+    padding: 40px 11px 64px 13px; }
+    .qa-page h2 {
+      margin-bottom: 24px; }
+    .qa-page li {
+      margin-bottom: 24px; } }
+
 /*# sourceMappingURL=all.css.map */
