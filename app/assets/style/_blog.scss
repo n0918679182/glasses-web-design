@@ -58,6 +58,10 @@
     .content{
         width: 49%;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
     }
     h3{
         font-size: 32px;
@@ -90,9 +94,6 @@
         line-height: 30px;
     }
     .more-bt{
-        position: absolute;
-        bottom: 0;
-        right: 0;
         font-size: 36px;
         line-height: 54px;
         font-weight: 900;
@@ -424,6 +425,9 @@
         }
         img,.content{
             width: 100%;
+        }
+        .content{
+            align-items: flex-start;
         }
         img{
             margin-bottom: 8px;

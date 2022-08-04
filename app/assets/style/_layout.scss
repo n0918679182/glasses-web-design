@@ -88,6 +88,9 @@
             font-size: 36px;
             line-height: 54px;
             margin-left: 20px;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
     .icon{

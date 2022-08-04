@@ -21,7 +21,7 @@ h2{
 }
 
 .container{
-    width: 1296px;
+    max-width: 1296px;
     margin: 0 auto;
     padding: 0 12px;
     text-align: center;
@@ -29,8 +29,7 @@ h2{
 
 @media (max-width:1320px) {
     .container{
-        width: 100%;
-        padding: 0;
+        max-width: 100%;
     }
 }
 @media (max-width:710px){
